@@ -1,0 +1,16 @@
+# Python & Virtual Environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+# Database & Data files
+*.duckdb
+*.sqlite3
+# dbt Artifacts
+target/
+dbt_packages/
+logs/
+*.log
+# Configuration & Secrets
+.env
+.vscode/
